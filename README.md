@@ -6,7 +6,7 @@ khách hàng đên giao dịch mua bán sản phâm ứng dụng. Dựa vào m
 tượng, người quản lý cần đưa ra cách thức đánh giá khác nhau.
 Vậy hãy xây dựng các lớp sau:
 • Lớp Person: bao gôm các thu ̀ ộc tính họ tên, địa chỉ, mã, email
-• Các lớp Student, Employee, Customer (mô tảdưới đây) kế thừa lớp Person.
+• Các lớp Student, Employee, Customer (mô tả dưới đây) kế thừa lớp Person.
 - Lớp Student: bao gôm các thu ̀ ộc tính toán, lý, hóa.
 - Lớp Employee: bao gôm thu ̀ ộc tính: số ngày làm việc, lương theo ngày.
 - Lớp Customer: bao gôm thu ̀ ộc tính tên công ty, trị giá hóa đon, ̛ đánh giá
