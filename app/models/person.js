@@ -15,6 +15,10 @@ export class Student extends Person {
         this.physical = physical;
         this.chemistry = chemistry;
     }
+
+    getAverage() {
+        return (this.math + this.physical + this.chemistry) / 3;
+    }
 }
 
 export class Employee extends Person {
@@ -22,6 +26,10 @@ export class Employee extends Person {
         super(id, type, name, address, email);
         this.workDays = workDays;
         this.dailySalary = dailySalary;
+    }
+
+    getSalary() {
+        return this.workDays * this.dailySalary;
     }
 }
 

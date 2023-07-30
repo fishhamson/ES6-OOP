@@ -79,6 +79,8 @@ const renderTable = (personList) => {
             <td>${person.address}</td>
             <td>${person.email}</td>
             <td>${person.type}</td>
+            <td>${person.type === 'Student' ? person.getAverage() : ''}</td>
+            <td>${person.type === 'Employee' ? person.getSalary() : ''}</td>
             <td>
                 <button class="btn btn-success btn-sm" data-toggle="modal" data-target="#exampleModal">Cập nhật</button>
                 <button class="btn btn-danger btn-sm">Xóa</button>
@@ -133,7 +135,6 @@ const removeBtns = document.querySelectorAll('.btn-danger');
 for (const btn of removeBtns) {
     btn.addEventListener('click', (event) => {
         const tr = event.target.closest('tr');
-        console.log("tr: ", tr);
         const id = tr.querySelector('td').textContent;
         personList.removePerson(id);
         saveToLocalStorage(personList)
