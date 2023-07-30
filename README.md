@@ -1,9 +1,9 @@
 # ES6-OOP
 # Quản lý học viện nghiên cứu & giảng dạy
-Xây dựng chương trình quan l ̉ ý cho một hoc vi ̣ ện nghiên cứu giang d ̉ ay và ̣ ứng dung. ̣ Đối tượng
-quan ̉ lý bao gồm các sinh viên đang theo hoc, các nhân viên ̣ đang làm việc tai ḥ oc vi ̣ ện, các
-khách hàng đên giao d ́ ịch mua bán san ph ̉ âm ̉ ứng dung. D ̣ ựa vào một số đặt tính cua t ̉ ừng đôi ́
-tượng, người quan ̉ lý cần đưa ra cách thức đánh giá khác nhau.
+Xây dựng chương trình quan lý cho một hoc viện nghiên cứu giang dạy và ứng dụng. Đối tượng
+quản lý bao gồm các sinh viên đang theo học, các nhân viên. đang làm việc tại học viện, các
+khách hàng đên giao dịch mua bán sản phâm ứng dụng. Dựa vào một số đặt tính của từng đối
+tượng, người quản lý cần đưa ra cách thức đánh giá khác nhau.
 Vậy hãy xây dựng các lớp sau:
 • Lớp Person: bao gôm các thu ̀ ộc tính họ tên, địa chỉ, mã, email
 • Các lớp Student, Employee, Customer (mô tảdưới đây) kế thừa lớp Person.
